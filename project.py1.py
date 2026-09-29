@@ -1,0 +1,25 @@
+print("welcome to the fundamentals program")
+print("welocme to the interactive personal data collector!")
+name=input("enter your name: ")
+age=int(input("enter your age:"))
+height=float(input("enter your height in meters:"))
+favorite_number=int(input("enter your favorite number:"))
+print(" thank you! Here is the information we collected ")
+print("name: ", name )
+print("age:", age)
+print("height:", height, "meters")
+print("favorite number:", favorite_number )
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(favorite_number))
+print("memory address of the variables (id(name)):", id(name))
+print("memory address of the variables (id(age)):", id(age))
+print("memory address of the variables (id(height)):", id(height))
+print("memory address of the variables (id(favorite_number)):", id(favorite_number))
+
+current_year=2026
+birth_year= current_year-age
+print("your birth year is approximately:", birth_year,"based " "on your age")
+print("thank you for using the interactive personal data collector!")
+
