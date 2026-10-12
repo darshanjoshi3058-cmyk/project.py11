@@ -53,7 +53,7 @@ while True:
                 print("Grade:", student["Grade"])
                 print("Date of Birth:", student["DOB"])
                 print("Subjects:", student["Subjects"])
-                print("--------------------")
+                
 
     # 3. Update Student
     elif choice == "3":
